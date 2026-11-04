@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"0752860f3b864807","type":"group","x":5520,"y":-960,"width":440,"height":660,"color":"3","label":"dev::test"},
+		{"id":"a7182adb84d18687","type":"group","x":6120,"y":-480,"width":440,"height":660,"color":"3","label":"dev::test"},
+		{"id":"bf54c6ea01f6c050","type":"text","text":"# **Test**","x":-485,"y":-190,"width":970,"height":380,"color":"1"},
+		{"id":"a36fc1364d931912","type":"text","text":"## Test Fonksiyonlar","x":2760,"y":-215,"width":375,"height":430,"color":"4"},
+		{"id":"ad887d84a2797364","type":"text","text":"### Assert","x":4720,"y":215,"width":250,"height":100,"color":"2"},
+		{"id":"f994405b100007f0","type":"text","text":"### Expect","x":4720,"y":-315,"width":250,"height":100,"color":"2"},
+		{"id":"c62bd7500a836155","x":5560,"y":-920,"width":360,"height":160,"type":"text","text":"#### Basit veya gelişmiş bir değer karşılaştırma fonksiyonu, sonuç eşleşiyor ise true, değilse false döndürür"},
+		{"id":"6ddb851daf3bde30","type":"text","text":"#### Değerler eşleşmiyor ise, hatalı bir program sonlanmasına nedenolabilecek derece de güçlü, istendiği durumda çökmemesini sağlayacak şekilde ayarlanabilir fakat sadece test fonksiyonları için kullanılması uygundur","x":6160,"y":-440,"width":360,"height":255}
+	],
+	"edges":[
+		{"id":"a9c7d51adf500345","fromNode":"bf54c6ea01f6c050","fromSide":"right","toNode":"a36fc1364d931912","toSide":"left"},
+		{"id":"dd7dbb04f9ad92ec","fromNode":"a36fc1364d931912","fromSide":"right","toNode":"f994405b100007f0","toSide":"left"},
+		{"id":"227182a5ab5f9fd5","fromNode":"a36fc1364d931912","fromSide":"right","toNode":"ad887d84a2797364","toSide":"left"},
+		{"id":"620f50baeb47c775","fromNode":"f994405b100007f0","fromSide":"right","toNode":"0752860f3b864807","toSide":"left"},
+		{"id":"efe13619ddba217c","fromNode":"ad887d84a2797364","fromSide":"right","toNode":"a7182adb84d18687","toSide":"left"}
+	]
+}

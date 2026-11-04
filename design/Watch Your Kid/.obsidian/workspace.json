@@ -16,9 +16,9 @@
               "state": {
                 "file": "Çekirdek/Sistem/Sistem Grafik Tasarımı.canvas",
                 "viewState": {
-                  "x": 1905.2122780006666,
-                  "y": -4127.772236089047,
-                  "zoom": -1.2000000000000006
+                  "x": -1722.6449588046562,
+                  "y": 385.00170594765535,
+                  "zoom": -3.1999999999999997
                 }
               },
               "pinned": true,
@@ -41,8 +41,79 @@
               "icon": "lucide-file",
               "title": "Sistem İstenenler"
             }
+          },
+          {
+            "id": "461aa7f3f07fba7d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geliştirici/Test/Test İstenenler.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Test İstenenler"
+            }
+          },
+          {
+            "id": "9e0704b86526551f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Geliştirici/Test/Test Grafik Tasarım.canvas",
+                "viewState": {
+                  "x": 3466.1519330974834,
+                  "y": 558.7790770995448,
+                  "zoom": -2.4000000000000004
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Test Grafik Tasarım"
+            }
+          },
+          {
+            "id": "dd462f15f6a73d25",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geliştirici/Kayıt/Kayıt İstenenler.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Kayıt İstenenler"
+            }
+          },
+          {
+            "id": "9d82551decbcfe9b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Kayıt Grafik Tasarım"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,10 +280,17 @@
       "bases:Yeni taban oluştur": false
     }
   },
-  "active": "35d2113ab37819a8",
+  "active": "dd462f15f6a73d25",
   "lastOpenFiles": [
-    "Çekirdek/Sistem/Sistem İstenenler.md",
+    "Geliştirici/Test/Test İstenenler.md",
+    "Geliştirici/Kayıt/Kayıt İstenenler.md",
+    "Geliştirici/Test/Test Grafik Tasarım.canvas",
+    "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
+    "Geliştirici/Kayıt",
     "Çekirdek/Sistem/Sistem Grafik Tasarımı.canvas",
+    "Çekirdek/Sistem/Sistem İstenenler.md",
+    "Geliştirici",
+    "Geliştirici/Test",
     "Çekirdek/Sistem",
     "Hoş geldiniz.md",
     "Çekirdek"
