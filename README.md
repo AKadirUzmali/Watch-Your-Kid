@@ -13,7 +13,7 @@ Proje; güvenlik, performans ve taşınabilirlik prensipleriyle geliştirilmişt
 - **İşletim Sistemi:** Linux/GNU ve Windows işletim sistemleri ile uyumlu olacak şekilde geliştirilir.
 - **Güvenlik:** Kötü amaçlar için kullanılamaması adına ek güvenlik önlemleri alınmıştır.
 - **Küçük ve Hafif:** Gereksiz dosya, yapı ve işlemler içermeden küçük dosya boyutuna sahiptir.
-- **Kullanıcı Arayüzü:** Uygulama ile arayüz sağlamak yerine daha kullanışlı ve masaüstü harici cihazlara gelecekte uyumun gelebilmesini sağlamak için yönetimi yerel web sunucusunda sağlar, bu sayede ek bir uygulama gui menüsüne ihtiyaç duymaz ve uygulama sadece çalışmaya odaklanır, gui menüsü ile ilgilenmez.
+- **Kullanıcı Arayüzü:** Uygulama ile arayüz sağlamak yerine daha kullanışlı ve masaüstü harici cihazlara gelecekte uyumun gelebilmesini sağlamak için yönetimi yerel web sunucusunda sağlar, bu sayede ek bir uygulama gui menüsüne ihtiyaç duymaz ve uygulama sadece çalışmaya odaklanır, gui menüsü ile ilgilenmez (Geliştiricinin programa hata ayıklama testi yapması gibi durumlar hariç).
 
 ### Lisans
 - **Lisans:** BSD 3 Clause lisansı kullanılmaktadır.
