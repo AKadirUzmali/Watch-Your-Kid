@@ -16,9 +16,9 @@
               "state": {
                 "file": "Çekirdek/Sistem/Sistem Grafik Tasarımı.canvas",
                 "viewState": {
-                  "x": -1722.6449588046562,
-                  "y": 385.00170594765535,
-                  "zoom": -3.1999999999999997
+                  "x": 2366.7387237355915,
+                  "y": -369.0271571498927,
+                  "zoom": -1.2000000000000002
                 }
               },
               "pinned": true,
@@ -102,8 +102,8 @@
               "state": {
                 "file": "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
                 "viewState": {
-                  "x": 2972.413431052729,
-                  "y": -3826.5421436737524,
+                  "x": 5955.3887628108105,
+                  "y": -197.19773887696869,
                   "zoom": -4
                 }
               },
@@ -111,9 +111,44 @@
               "icon": "lucide-layout-dashboard",
               "title": "Kayıt Grafik Tasarım"
             }
+          },
+          {
+            "id": "f28ebcf034f8b2f2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Çekirdek/Çökme/Çökme İstenenler.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Çökme İstenenler"
+            }
+          },
+          {
+            "id": "5405a40ebe484619",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Çekirdek/Çökme/Çökme Grafik Tasarım.canvas",
+                "viewState": {
+                  "x": 7060.177167345015,
+                  "y": 1396.2746497259805,
+                  "zoom": -3.6
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Çökme Grafik Tasarım"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -280,15 +315,18 @@
       "bases:Yeni taban oluştur": false
     }
   },
-  "active": "9d82551decbcfe9b",
+  "active": "5405a40ebe484619",
   "lastOpenFiles": [
-    "Geliştirici/Kayıt/Kayıt İstenenler.md",
-    "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
-    "Geliştirici/Test/Test Grafik Tasarım.canvas",
-    "Çekirdek/Sistem/Sistem İstenenler.md",
-    "Geliştirici/Test/Test İstenenler.md",
-    "Geliştirici/Kayıt",
+    "Çekirdek/Çökme/Çökme İstenenler.md",
+    "Çekirdek/Çökme/Çökme Grafik Tasarım.canvas",
     "Çekirdek/Sistem/Sistem Grafik Tasarımı.canvas",
+    "Çekirdek/Sistem/Sistem İstenenler.md",
+    "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
+    "Geliştirici/Test/Test İstenenler.md",
+    "Geliştirici/Kayıt/Kayıt İstenenler.md",
+    "Geliştirici/Test/Test Grafik Tasarım.canvas",
+    "Çekirdek/Çökme",
+    "Geliştirici/Kayıt",
     "Geliştirici",
     "Geliştirici/Test",
     "Çekirdek/Sistem",
