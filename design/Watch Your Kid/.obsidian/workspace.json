@@ -16,9 +16,9 @@
               "state": {
                 "file": "Çekirdek/Sistem/Sistem Grafik Tasarımı.canvas",
                 "viewState": {
-                  "x": -1722.6449588046562,
-                  "y": 385.00170594765535,
-                  "zoom": -3.1999999999999997
+                  "x": 2366.7387237355915,
+                  "y": -369.0271571498927,
+                  "zoom": -1.2000000000000002
                 }
               },
               "pinned": true,
@@ -102,8 +102,8 @@
               "state": {
                 "file": "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
                 "viewState": {
-                  "x": 2972.413431052729,
-                  "y": -3826.5421436737524,
+                  "x": 5955.3887628108105,
+                  "y": 1588.4022611230314,
                   "zoom": -4
                 }
               },
@@ -282,13 +282,17 @@
   },
   "active": "9d82551decbcfe9b",
   "lastOpenFiles": [
-    "Geliştirici/Kayıt/Kayıt İstenenler.md",
-    "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
-    "Geliştirici/Test/Test Grafik Tasarım.canvas",
-    "Çekirdek/Sistem/Sistem İstenenler.md",
-    "Geliştirici/Test/Test İstenenler.md",
-    "Geliştirici/Kayıt",
+    "Watch",
+    "Çekirdek/Çökme/Çökme İstenenler.md",
+    "Çekirdek/Çökme/Çökme Grafik Tasarım.canvas",
     "Çekirdek/Sistem/Sistem Grafik Tasarımı.canvas",
+    "Çekirdek/Sistem/Sistem İstenenler.md",
+    "Geliştirici/Kayıt/Kayıt Grafik Tasarım.canvas",
+    "Geliştirici/Test/Test İstenenler.md",
+    "Geliştirici/Kayıt/Kayıt İstenenler.md",
+    "Geliştirici/Test/Test Grafik Tasarım.canvas",
+    "Çekirdek/Çökme",
+    "Geliştirici/Kayıt",
     "Geliştirici",
     "Geliştirici/Test",
     "Çekirdek/Sistem",
