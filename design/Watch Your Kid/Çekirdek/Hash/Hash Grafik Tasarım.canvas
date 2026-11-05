@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"240a20d578849893","type":"group","x":2890,"y":-3410,"width":440,"height":660,"color":"3","label":"hash::charlist"},
+		{"id":"c0afcab06f8a0415","type":"group","x":4080,"y":-2080,"width":440,"height":660,"color":"3","label":"hash"},
+		{"id":"e90586a5c0449b01","type":"group","x":5280,"y":-380,"width":440,"height":660,"color":"3","label":"hash"},
+		{"id":"544a3ff4f2df7453","type":"group","x":4480,"y":960,"width":440,"height":660,"color":"3","label":"hash"},
+		{"id":"535e57ca066d820e","type":"text","text":"## Versiyon kontrol sisteminin daha gelişmiş halini sağlamak","x":170,"y":-235,"width":375,"height":430,"color":"4"},
+		{"id":"8df6beeef71505e1","type":"text","text":"### Hash eşleşme kontrolünü sağlamak","x":2810,"y":-1330,"width":250,"height":280,"color":"2"},
+		{"id":"3ca6533253d5d11b","type":"text","text":"### Hash değerinin metin çıktısını vermek","x":2810,"y":1070,"width":250,"height":280,"color":"2"},
+		{"id":"659cc19f43b6bcf0","type":"text","text":"# **Hash**","x":-4630,"y":-235,"width":970,"height":380,"color":"1"},
+		{"id":"9a56b350f8f57951","type":"text","text":"### Hash için 16'lık (hexadecimal) karakter listesi oluşturmak","x":1740,"y":-2610,"width":250,"height":280,"color":"2"},
+		{"id":"4ca1f7f4d92132ae","type":"text","text":"### Hashleri karıştırmak, farklılaştırmak ve oluşturmayı sağlamak","x":3770,"y":-160,"width":250,"height":280,"color":"2"},
+		{"id":"466e56255f16bb5d","type":"text","text":"#### 0, 1, 2, 3, 4, '5, 6, 7, 8, 9, a, b, c, d, e, f","x":2910,"y":-3390,"width":400,"height":70,"color":"6"},
+		{"id":"3953e8155d72986b","type":"text","text":"#### operator==","x":4100,"y":-2060,"width":400,"height":60,"color":"6"},
+		{"id":"53e0cc033f8b2f57","type":"text","text":"#### operator!=","x":4100,"y":-2000,"width":400,"height":60,"color":"6"},
+		{"id":"f1a428e164fd5c7c","type":"text","text":"#### (exec) shuffle","x":5300,"y":-360,"width":400,"height":60,"color":"6"},
+		{"id":"c21580cf141f1146","type":"text","text":"#### (exec) mix","x":5300,"y":-300,"width":400,"height":60,"color":"6"},
+		{"id":"4f0b35cc83aaaef5","type":"text","text":"#### (exec) make","x":5300,"y":-240,"width":400,"height":60,"color":"6"},
+		{"id":"1deed0e69d970146","type":"text","text":"#### (get) str","x":4500,"y":980,"width":400,"height":60,"color":"6"},
+		{"id":"bb899bf46c440e28","type":"text","text":"#### (get) c_str","x":4500,"y":1040,"width":400,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"c80dfa9081d0d5b6","fromNode":"9a56b350f8f57951","fromSide":"right","toNode":"240a20d578849893","toSide":"left"},
+		{"id":"37b76de006b5814f","fromNode":"659cc19f43b6bcf0","fromSide":"right","toNode":"535e57ca066d820e","toSide":"left"},
+		{"id":"619a2743e5eced4f","fromNode":"535e57ca066d820e","fromSide":"right","toNode":"9a56b350f8f57951","toSide":"left"},
+		{"id":"30c0380b7864566c","fromNode":"535e57ca066d820e","fromSide":"right","toNode":"8df6beeef71505e1","toSide":"left"},
+		{"id":"b4f2eb75a202935a","fromNode":"535e57ca066d820e","fromSide":"right","toNode":"3ca6533253d5d11b","toSide":"left"},
+		{"id":"f6a25860f625d83a","fromNode":"535e57ca066d820e","fromSide":"right","toNode":"4ca1f7f4d92132ae","toSide":"left"},
+		{"id":"c703fd542e9f08d1","fromNode":"8df6beeef71505e1","fromSide":"right","toNode":"c0afcab06f8a0415","toSide":"left"},
+		{"id":"1b42725947e57163","fromNode":"4ca1f7f4d92132ae","fromSide":"right","toNode":"e90586a5c0449b01","toSide":"left"},
+		{"id":"85bf28366c60ef82","fromNode":"3ca6533253d5d11b","fromSide":"right","toNode":"544a3ff4f2df7453","toSide":"left"}
+	]
+}
