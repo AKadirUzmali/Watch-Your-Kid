@@ -4,8 +4,7 @@
 	+ Kriptografi (Cryptography)
 	+ Hash
 	+ İzlek (Thread)
-	+ Fonksiyon (Function)
 	+ Zaman (Time)
+	+ Karakter Seti (Charset)
 	+ Soket (Socket)
 	+ Çıktı (Output)
-	+ Karakter Seti (Charset)

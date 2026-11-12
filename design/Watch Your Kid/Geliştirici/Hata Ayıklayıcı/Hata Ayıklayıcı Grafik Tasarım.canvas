@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"7b2bb39ea406f441","type":"group","x":7360,"y":-480,"width":680,"height":660,"color":"3","label":"debugger::select"},
+		{"id":"8a43e5e42e80c425","type":"group","x":4480,"y":-11640,"width":440,"height":660,"color":"3","label":"debugger::type"},
+		{"id":"f22fe43009ccdf95","type":"group","x":5320,"y":-7320,"width":440,"height":660,"color":"3","label":"debugger::type"},
+		{"id":"cb3e3f27c9a07996","type":"group","x":6240,"y":-6360,"width":440,"height":660,"color":"3","label":"debugger::type"},
+		{"id":"23f5334f4aa273c7","type":"text","text":"# **Hata Ayıklayıcı**","x":-4320,"y":-3110,"width":970,"height":380,"color":"1"},
+		{"id":"e38444d67352761f","type":"text","text":"## Hata ayıklama durumunun aktif olup olmadığını belirlemek","x":1226,"y":-10240,"width":375,"height":430,"color":"4"},
+		{"id":"9070cbd381c957ca","type":"text","text":"## Hata ayıklama türleri belirlemek","x":3040,"y":-5600,"width":375,"height":430,"color":"4"},
+		{"id":"2ccc238bf7a80ff9","type":"text","text":"### Hata ayıklama için özel başlık oluşturup, aktif olduğunda hata ayıklamanın aktif olduğunu anlamayı sağlamak","x":3240,"y":-11200,"width":250,"height":280,"color":"2"},
+		{"id":"a2ca7185706bb195","type":"text","text":"### Test hata ayıklama durumu","x":5280,"y":-6040,"width":250,"height":280,"color":"2"},
+		{"id":"66433d0801008449","type":"text","text":"### Geliştirici hata ayıklama durumu","x":4520,"y":-6560,"width":250,"height":280,"color":"2"},
+		{"id":"11a02171bfc3df93","type":"text","text":"#### #__DEBUGGER_TYPE__","x":4500,"y":-11620,"width":400,"height":50},
+		{"id":"e10cd43be4dfd508","type":"text","text":"#### #__DEBUGGER_T_DEV__","x":5340,"y":-7300,"width":400,"height":50},
+		{"id":"d493c46e12f33e7d","type":"text","text":"#### #__DEBUGGER_T_TEST__","x":6260,"y":-6340,"width":400,"height":50},
+		{"id":"41d323e662f420b8","type":"text","text":"## Sadece hata ayıklama durumunda çalışacakları belirlemek","x":2603,"y":-520,"width":375,"height":430,"color":"4"},
+		{"id":"cd96c677cd5fcb00","type":"text","text":"### Önceden test edilmiş ya da artık test edilmek istenmeyenleri tekrar tekrar test etmek yerine yapıya özel hata ayıklama kodu verip belirtilen durumlarda sadece test edilmelerini sağlamak","x":5215,"y":-90,"width":250,"height":380,"color":"2"},
+		{"id":"e835d8b2f8f2ceff","type":"text","text":"#### \n#EXAMPLE #20261112OUTPUTTEST_FRST\n\n#DEFINE #__DEBUGGER_CSEL_20261112OUTPUTTEST_FRST\n\n#### CSEL = Code Select","x":7380,"y":-460,"width":640,"height":180}
+	],
+	"edges":[
+		{"id":"9e2e548d3805ee07","fromNode":"23f5334f4aa273c7","fromSide":"right","toNode":"41d323e662f420b8","toSide":"left"},
+		{"id":"04e69ac008aef08a","fromNode":"23f5334f4aa273c7","fromSide":"right","toNode":"9070cbd381c957ca","toSide":"left"},
+		{"id":"5b58ba5ec2d4dd87","fromNode":"23f5334f4aa273c7","fromSide":"right","toNode":"e38444d67352761f","toSide":"left"},
+		{"id":"9d2cf734820b19d9","fromNode":"e38444d67352761f","fromSide":"right","toNode":"2ccc238bf7a80ff9","toSide":"left"},
+		{"id":"f5a35a9dd5b6ab18","fromNode":"41d323e662f420b8","fromSide":"right","toNode":"cd96c677cd5fcb00","toSide":"left"},
+		{"id":"26659c6583c59837","fromNode":"9070cbd381c957ca","fromSide":"right","toNode":"66433d0801008449","toSide":"left"},
+		{"id":"29e337f6acf8e476","fromNode":"9070cbd381c957ca","fromSide":"right","toNode":"a2ca7185706bb195","toSide":"left"},
+		{"id":"4b9a6c411424de70","fromNode":"2ccc238bf7a80ff9","fromSide":"right","toNode":"8a43e5e42e80c425","toSide":"left"},
+		{"id":"00ac74bd677263b3","fromNode":"66433d0801008449","fromSide":"right","toNode":"f22fe43009ccdf95","toSide":"left"},
+		{"id":"4a0ea8ec31c80d00","fromNode":"a2ca7185706bb195","fromSide":"right","toNode":"cb3e3f27c9a07996","toSide":"left"},
+		{"id":"ae51d2fe47fa1971","fromNode":"cd96c677cd5fcb00","fromSide":"right","toNode":"7b2bb39ea406f441","toSide":"left"}
+	]
+}

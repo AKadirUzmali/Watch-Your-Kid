@@ -1,4 +1,4 @@
-+  İstenenler
++  İstenenler:
 	+ Geleceğe yönelik ve güvenli çalışmayı sağlayan bir kriptografik alt yapı oluşturmak
 
 	+ Geleceğe yönelik ve güvenli çalışmayı sağlayan bir kriptografik alt yapı oluşturmak:

@@ -1,4 +1,4 @@
-+ İstenenler
++ İstenenler:
 	+ Versiyon kontrol sisteminin daha gelişmiş halini sağlamak
 
 	+ Versiyon kontrol sisteminin daha gelişmiş halini sağlamak:

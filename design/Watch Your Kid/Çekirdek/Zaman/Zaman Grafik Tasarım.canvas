@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"c143732af775ea78","type":"group","x":6880,"y":-3360,"width":440,"height":660,"color":"3","label":"time::now"},
+		{"id":"08651b5be61058d6","type":"group","x":6880,"y":-5920,"width":440,"height":660,"color":"3","label":"time::now"},
+		{"id":"51d29e03b9f9ee63","type":"group","x":6880,"y":-5920,"width":440,"height":660,"color":"3"},
+		{"id":"e8b37acff65c0902","type":"group","x":7760,"y":-1120,"width":440,"height":660,"color":"3","label":"time::now"},
+		{"id":"32e0c172f8a0dd0e","type":"text","text":"# **Zaman**","x":-2104,"y":-3231,"width":970,"height":380,"color":"1"},
+		{"id":"d937d439b08ae11e","type":"text","text":"## Zaman bilgisini anlık olarak alabilmek","x":1920,"y":-3256,"width":375,"height":430,"color":"4"},
+		{"id":"973894c30297fcdc","type":"text","text":"#### (get) time","x":6900,"y":-3340,"width":400,"height":50},
+		{"id":"b460310c4974beab","type":"text","text":"### Saat, dakika, saniye bilgisini alabilmek","x":5520,"y":-3160,"width":250,"height":280,"color":"2"},
+		{"id":"52dc6f370409e255","type":"text","text":"### Yıl, ay, gün bilgisini alabilmek","x":5520,"y":-5720,"width":250,"height":280,"color":"2"},
+		{"id":"c7b72e2b81591c3b","type":"text","text":"#### (get) timestamp","x":7780,"y":-1100,"width":400,"height":50},
+		{"id":"fdb1f60a16664fbb","type":"text","text":"### Tüm bilgilerin birleşik halini alabilmek","x":6400,"y":-920,"width":250,"height":280,"color":"2"},
+		{"id":"39e714fde8bee778","x":6900,"y":-5897,"width":400,"height":50,"type":"text","text":"#### (get) date"}
+	],
+	"edges":[
+		{"id":"dba2c7608283fa07","fromNode":"32e0c172f8a0dd0e","fromSide":"right","toNode":"d937d439b08ae11e","toSide":"left"},
+		{"id":"33dd74e6688cd87c","fromNode":"b460310c4974beab","fromSide":"right","toNode":"c143732af775ea78","toSide":"left"},
+		{"id":"b28509f92e4141c0","fromNode":"52dc6f370409e255","fromSide":"right","toNode":"51d29e03b9f9ee63","toSide":"left"},
+		{"id":"e5ebc26342738334","fromNode":"fdb1f60a16664fbb","fromSide":"right","toNode":"e8b37acff65c0902","toSide":"left"},
+		{"id":"48902d09bebf345e","fromNode":"d937d439b08ae11e","fromSide":"right","toNode":"b460310c4974beab","toSide":"left"},
+		{"id":"cce9e0f45bfedeaf","fromNode":"d937d439b08ae11e","fromSide":"right","toNode":"52dc6f370409e255","toSide":"left"},
+		{"id":"aaa632e0c9679f69","fromNode":"d937d439b08ae11e","fromSide":"right","toNode":"fdb1f60a16664fbb","toSide":"left"},
+		{"id":"d9b09701036f30d4","fromNode":"52dc6f370409e255","fromSide":"right","toNode":"fdb1f60a16664fbb","toSide":"top"},
+		{"id":"692e35217f782d48","fromNode":"b460310c4974beab","fromSide":"bottom","toNode":"fdb1f60a16664fbb","toSide":"top"}
+	]
+}
