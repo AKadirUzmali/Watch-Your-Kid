@@ -24,12 +24,12 @@
 		{"id":"8393475fb16e879a","type":"text","text":"#### (get) thread","x":6100,"y":4358,"width":400,"height":50},
 		{"id":"456433111bef819e","type":"text","text":"### Yeni işlem havuza eklenir, iş bitince ise havuzdan silinir","x":4435,"y":5760,"width":250,"height":280,"color":"2"},
 		{"id":"cb304369dd4bff1a","type":"text","text":"### Havuzdan seçilen işlem durdurulabilir, kapatılabilir ya da başka işlemler yapılabilir","x":5295,"y":4720,"width":250,"height":280,"color":"2"},
-		{"id":"2f08cdfa2eca7af5","type":"text","text":"#### (exec) oncrash","x":6100,"y":5958,"width":400,"height":50},
+		{"id":"2f08cdfa2eca7af5","type":"text","text":"#### oncrash","x":6100,"y":5958,"width":400,"height":50},
 		{"id":"add9f8aa720416c2","type":"text","text":"### Çökme gibi durumlarda temizlenir","x":5190,"y":6480,"width":250,"height":280,"color":"2"},
-		{"id":"ed1e5e967273f8f3","type":"text","text":"#### (exec) enqueue","x":5220,"y":5380,"width":400,"height":50},
-		{"id":"89d3a64e73b10ac7","type":"text","text":"#### (exec) stop_thread","x":6100,"y":4408,"width":400,"height":50},
-		{"id":"42a0ed57764b3968","type":"text","text":"#### (exec) kill_thread","x":6100,"y":4458,"width":400,"height":50},
-		{"id":"0818d74a1282a66a","type":"text","text":"#### (exec) dequeue","x":5220,"y":5430,"width":400,"height":50},
+		{"id":"ed1e5e967273f8f3","type":"text","text":"#### enqueue","x":5220,"y":5380,"width":400,"height":50},
+		{"id":"89d3a64e73b10ac7","type":"text","text":"#### stop_thread","x":6100,"y":4408,"width":400,"height":50},
+		{"id":"42a0ed57764b3968","type":"text","text":"#### kill_thread","x":6100,"y":4458,"width":400,"height":50},
+		{"id":"0818d74a1282a66a","type":"text","text":"#### dequeue","x":5220,"y":5430,"width":400,"height":50},
 		{"id":"f812adacb512555c","type":"text","text":"#### (is) running","x":6100,"y":-5800,"width":400,"height":50}
 	],
 	"edges":[

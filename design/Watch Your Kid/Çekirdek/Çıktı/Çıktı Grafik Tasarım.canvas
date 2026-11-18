@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"89af86cad57b8b31","type":"group","x":9280,"y":-3200,"width":440,"height":660,"color":"3","label":"output"},
+		{"id":"3697451b7b0c4253","type":"text","text":"# **Çıktı**","x":-1787,"y":-3110,"width":970,"height":380,"color":"1"},
+		{"id":"c2f8ee5bc21f0b6a","type":"text","text":"## Oluşturulan çıktı nesnesine özel isim verilmesi","x":4000,"y":-3110,"width":375,"height":430,"color":"4"},
+		{"id":"c97ceb6e5c1a11fe","type":"text","text":"## Çıktının yazma işlemlerini gerçekleştirebilmesi","x":4000,"y":3040,"width":375,"height":430,"color":"4"},
+		{"id":"f66bebfc3932679b","type":"text","text":"## Çıktı türünün olması","x":4188,"y":-8320,"width":375,"height":430,"color":"4"},
+		{"id":"30b0560e66faa9ff","type":"text","text":"### Dosya çıktısı","x":5930,"y":-8245,"width":250,"height":280,"color":"2"},
+		{"id":"a33a7baac239a27f","type":"text","text":"### Konsol ekranı çıktısı","x":5280,"y":-9600,"width":250,"height":280,"color":"2"},
+		{"id":"5dec3d9d82f1c515","type":"text","text":"### Gui çıktısı","x":5280,"y":-6720,"width":250,"height":280,"color":"2"},
+		{"id":"876cf5fabd7cd874","type":"text","text":"### Özel isim ile daha okunabilir kılmak","x":6800,"y":-3035,"width":250,"height":280,"color":"2"},
+		{"id":"1d004f0844983e01","x":9300,"y":-3180,"width":400,"height":50,"type":"text","text":"#### (set) name"},
+		{"id":"b0d07e17c61a86b7","type":"text","text":"#### (get) name","x":9300,"y":-3130,"width":400,"height":50},
+		{"id":"01535d7f7e24b40b","type":"text","text":"### Başlık verilmesini sağlamak","x":6360,"y":2245,"width":250,"height":280,"color":"2"},
+		{"id":"80055e999088e2d5","type":"text","text":"### Çıktı durum seviyesini bildirmek (hata, başarı, uyarı, bilgi, test vs.)","x":6360,"y":4085,"width":250,"height":280,"color":"2"},
+		{"id":"604e6638d3b7af8a","type":"text","text":"### Metin girilmesini sağlamak","x":5680,"y":3125,"width":250,"height":280,"color":"2"}
+	],
+	"edges":[
+		{"id":"9a4c21604b9c9f26","fromNode":"3697451b7b0c4253","fromSide":"right","toNode":"f66bebfc3932679b","toSide":"left"},
+		{"id":"fbc694b0df438669","fromNode":"3697451b7b0c4253","fromSide":"right","toNode":"c97ceb6e5c1a11fe","toSide":"left"},
+		{"id":"7fbe1818f0f1efa8","fromNode":"3697451b7b0c4253","fromSide":"right","toNode":"c2f8ee5bc21f0b6a","toSide":"left"},
+		{"id":"d82459d87b2def7c","fromNode":"f66bebfc3932679b","fromSide":"right","toNode":"5dec3d9d82f1c515","toSide":"left"},
+		{"id":"ec445fd4d1abd0ee","fromNode":"f66bebfc3932679b","fromSide":"right","toNode":"a33a7baac239a27f","toSide":"left"},
+		{"id":"53e7b8c4b0aefaaf","fromNode":"f66bebfc3932679b","fromSide":"right","toNode":"30b0560e66faa9ff","toSide":"left"},
+		{"id":"90850a5bafb8025a","fromNode":"c2f8ee5bc21f0b6a","fromSide":"right","toNode":"876cf5fabd7cd874","toSide":"left"},
+		{"id":"0e3e1d586d20b59d","fromNode":"876cf5fabd7cd874","fromSide":"right","toNode":"89af86cad57b8b31","toSide":"left"},
+		{"id":"fb49a18fa90b9a0f","fromNode":"c97ceb6e5c1a11fe","fromSide":"right","toNode":"604e6638d3b7af8a","toSide":"left"},
+		{"id":"ac7b6a61f9948229","fromNode":"c97ceb6e5c1a11fe","fromSide":"right","toNode":"01535d7f7e24b40b","toSide":"left"},
+		{"id":"a4f881dd86c61382","fromNode":"c97ceb6e5c1a11fe","fromSide":"right","toNode":"80055e999088e2d5","toSide":"left"}
+	]
+}

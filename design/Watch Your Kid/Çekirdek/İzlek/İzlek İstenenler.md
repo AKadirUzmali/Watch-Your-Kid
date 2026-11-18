@@ -5,15 +5,31 @@
 
 	+ İşlemleri tek çekirdekte yığın yapmak yerine diğer çekirdeklere de yaymasını sağlamak:
 		+ Programın tek çekirdeğe yük bindirmesi gecikme ve iş yükünü arttırır, bunu engellemek amaçlı yapılır
-		+ İşlemin çalışıp çalışmadığının bilgisini alır
+		+ İşlemin çalışıp çalışmadığının bilgisini alır:
+			+ (is) running
+	
 		+ İşlem oluştuktan sonra havuza eklenir
 
 	+ İşlemlerin sistem tarafından verilen özel #id sinin yanıda program da özel bir iş #id si verecek ve bu sayede istendiği durumda direk o #id ile işlem sonlandırılabilecek fakat eğer genel bir iş ise #id bilgisi hep "0" olacak bu sayede işlem sadece sonlanınca sona erecek:
-		+ Her işleme işletim sistemi özel bir #id verir zaten fakat yeni bir #id ile istenildiği durumda sonlandırılabilmesini kolaylaştıracağız
-		+ O #id bilgisinde işlem yoksa eğer olmadığına dair bilgi döndürecek ya da eğer #id "0" ise genel işlem olduğuna dair bilgi döndürecek ama hiç genel işlem yoksa genel işlem yok diye bilgi döndürecek
+		+ Her işleme işletim sistemi özel bir #id verir zaten fakat yeni bir #id ile istenildiği durumda sonlandırılabilmesini kolaylaştıracağız:
+			+ int32/int64 ctid (custom thread id)
+	
+		+ O #id bilgisinde işlem yoksa eğer olmadığına dair bilgi döndürecek ya da eğer #id "0" ise genel işlem olduğuna dair bilgi döndürecek ama hiç genel işlem yoksa genel işlem yok diye bilgi döndürecek:
+			+ (has) ctid (custom thread id)
+			+ (has) id (thread id)
 
 	+ İşlemlerin tutulduğu bir havuz yapısı olacak, bu havuzdan seçilen işlem istenildiğinde sonlandırılabilecek:
-		+ İşlemlerin kaç tane olduğunun bilgisini veriri
-		+ Havuzdan seçilen işlem durdurulabilir, kapatılabilir ya da başka işlemler yapılabilir
-		+ Yeni işlem havuza eklenir, iş bitince ise havuzdan silinir
-		+ Çökme gibi durumlarda ise kendisini durdurur ve havuzdan temizler
+		+ İşlemlerin kaç tane olduğunun bilgisini verir:
+			+ (get) thread_count
+	
+		+ Havuzdan seçilen işlem durdurulabilir, kapatılabilir ya da başka işlemler yapılabilir:
+			+ (get) thread
+			+ stop_thread
+			+ kill_thread
+	
+		+ Yeni işlem havuza eklenir, iş bitince ise havuzdan silinir:
+			+ enqueue
+			+ dequeue
+	
+		+ Çökme gibi durumlarda ise kendisini durdurur ve havuzdan temizler:
+			+ oncrash

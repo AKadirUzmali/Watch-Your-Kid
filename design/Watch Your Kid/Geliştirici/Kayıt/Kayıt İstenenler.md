@@ -10,20 +10,28 @@
 
 
 	+ Durum Yapısı:
-		+ Kayıt işlemi farklı durumlara ait olabilir bu yüzden durum yapısı ile bunun bir başarı, hata, uyarı, bilgi ya da düz metin olup olmadığını ayırmamızı sağlar
-		+ Okunabilirliği ve hata durumlarının ayırt edilmesini sağlayarak daha geliştirici dostu bir yapı sağlamak
+		+ Kayıt için alınan durumun seviyesini belirtmek:
+			+ Düz Metin (Plain Text)
+			+ Başarı (Success)
+			+ Uyarı (Warning)
+			+ Hata (Error)
+			+ Bilgi (Info)
+			+ Test
+	
+	+ Zaman Yapısı:
+		+ Zaman sınıfını sadece içe aktarır ve olan fonksiyonlarını kullanır, kendisi ek bir kayıt zamanlayıcısı oluşturmaz
 
 	+ Thread Yapısı:
-		+ Kayıt işleminin yapıldığı işleme ait bilgiyi almak isteriz bu yüzden Thread yapısından faydalanırız çünkü işlem bilgisini almamızı sağlayacak fonksiyonları sağlar
+		+ Kayıt yapılırken sadece tek tek sırayla yapıp zaman ve maliyet zararı yerine çoklu kayıt yapabilmek için thread yapısını kullanmak
 
 	+ Function Yapısı:
-		+ Kayıt yapılırken hangi fonksiyonun hangi satırında problem olduğunu anlamamızı sağlayacak olan fonksiyon yapısını barındırır, bu yapı fonksiyon yerine eski tarz #define ile de olabilir, fakat genel amaç okunabilirliği arttırmak ve hatanın kaynak noktasını öğrenmeyi sağlamak, hatayı anlamayı sağlamak
+		+ Kayıt yapılırken hata ayıklamayı kolaylaştırmak için fonksiyon bilgilerine erişmeyi sağlar
 
 	+ Output Yapısı:
-		+ Çıktı sadece tek bir yolla yapılmayabilir. Kimi zaman bir konsol çıktısı kimi zaman bir dosya çıktısı ya da anlık programın çalışmasını izleyebilmek için bir gui çıktısı da yapılabilir ya da yeni türler eklenebilir. Bu yapı sayesinde bunları sadece entegre etmek isteyip istemememize göre kayıt yapısı farklılaştırmayı sağlayabiliriz
+		+ Kayıt yapılırken dışarı çıktıyı vermeyi ve programı okumayı sağlar
 
 	+ Asenkron Yapısı:
-		+ Aynı anda birden fazla işlem yapılabilir ve aynı anda kayıt etmeyi deneyebilirler fakat ikisi ya da daha fazlası aynı aynda işlem yapmaya çalışacağı için kayıtlar birbirine karışacak ve okunmasını zorlaştıracak ve anlamsızlaştıracak. Fakat asenkron yapı ile bir miktar gecikme dahi olsa okunabilir ve sırayla kayıt yapılabilmesini sağlayarak race-condition (yarış durumu) engellenmiş olur
+		+ Kayıt yapılırken işlemlerin üst üste yığılıp aynı anda işlem yapmaya çalışmasını engeller
 
 	+ Ek Bilgi:
-		+ Kayıt alınırken o kayıt için özel bir başlık ya da bir mesaj verilebilir ki genelde mesaj verilir çünkü o işlemde ne yapılmak istendiği ya da işlem sonucunu mesaj olarak çıktı vererek aslında olması gereken değer yerine hangi değerin oluştuğunu ve ne yapılması gerektiğini kolaylaştırır ve başlık sayesinde de aynı sonucu ya da değeri çıktı verebilecek diğer kayıtlarla karıştırılmamasını sağlamak için o kayıta özel bir başlık verilmesini sağlar. Fakat mesaj ve başlık da isteğe bağlıdır ama diğer kalan tüm işlemler zorunludur
+		+ Kayıt sistemi için geliştirilmiş ve genel kullanımı kayıt sisteminin kullanılabilirliğini arttırmayı sağlar
