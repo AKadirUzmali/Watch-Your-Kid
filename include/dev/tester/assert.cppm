@@ -5,10 +5,10 @@ module;
 #include <cstdlib>
 
 // Module
-export module Assert;
+export module dev.test.assert;
 
 // Namespace
-export namespace dev::test
+namespace dev::test::assert
 {
     /**
     * @brief Kill
@@ -24,7 +24,7 @@ export namespace dev::test
     * @tparam L Left Type
     * @tparam R Right Type
     */
-    template <typename L, typename R>
+    export template <typename L, typename R>
     inline void assert_eq
     (
         const L& ar_left,
@@ -42,7 +42,7 @@ export namespace dev::test
     * @tparam L Left Type
     * @tparam R Right Type
     */
-    template <typename L, typename R>
+    export template <typename L, typename R>
     inline void assert_noteq
     (
         const L& ar_left,

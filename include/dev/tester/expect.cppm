@@ -1,10 +1,11 @@
 // Abdulkadir U. - 2026/11/19
+module;
 
 // Module
-export module Expect;
+export module dev.test.expect;
 
 // Namespace
-export namespace dev::test
+namespace dev::test::expect
 {
     /**
     * @brief Expect Equal
@@ -12,7 +13,7 @@ export namespace dev::test
     * @tparam R Right Type
     * @return bool True if equal, false otherwise
     */
-    template <typename L, typename R>
+    export template <typename L, typename R>
     inline bool expect_eq
     (
         const L& ar_left,
@@ -28,7 +29,7 @@ export namespace dev::test
     * @tparam R Right Type
     * @return bool True if not equal, false otherwise
     */
-    template <typename L, typename R>
+    export template <typename L, typename R>
     inline bool expect_noteq
     (
         const L& ar_left,
