@@ -5,12 +5,9 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
 CXX="${CXX:-g++}"
-CXXFLAGS=(-std=c++20 -fmodules -Wall -Wextra)
-
 MODULES_DIR="../../../include"
+CXXFLAGS=(-std=c++20 -fmodules -Wall -Wextra -I"$MODULES_DIR")
 MODULES=(
-    "dev/tester/expect.cppm"
-    "dev/tester/assert.cppm"
     "core/system/hardware/os.cppm"
 )
 
