@@ -7,35 +7,12 @@ module;
 #include <string>
 #include <string_view>
 
-// Define Architecture
-#if defined(_WIN64) || defined(__x86_64__) || defined(__ppc64__)
-    #define __ARCH_64__
-#elif defined(_WIN32) || defined(__i386__) || defined(__ppc__)
-    #define __ARCH_32__
-#endif
+#include <core/system/hardware/os/macros.hpp>
 
-// Define Platform and Operating System
-#if defined(_WIN32) || defined(_WIN64)
-    #define __PFM_MSWIN__
-
-    #define __OS_WINDOWS__
-
-    #ifndef WIN32_LEAN_AND_MEAN
-        #define WIN32_LEAN_AND_MEAN
-    #endif
-#elif defined(__linux__)
-    #define __PFM_LINUX__
-
-    #define __OS_POSIX__
-    #define __OS_LINUX__
-
-    #include <sys/utsname.h>
-#elif defined(__FreeBSD__) || defined(__unix__)
-    #define __PFM_UNIX__
-
-    #define __OS_POSIX__
-    #define __OS_BSD__
-
+// Include
+#if defined(__OS_WINDOWS__)
+    #include <Windows.h>
+#elif defined(__OS_LINUX__) || defined(__OS_BSD__)
     #include <sys/utsname.h>
 #else
     #error "[ERROR] Platform: UNIX/LINUX/MSWIN"
@@ -75,50 +52,50 @@ namespace core::sys::hardware::os
     };
 
     #if defined(__ARCH_64__)
-        constexpr bool arch_64 = true;
-        constexpr bool arch_32 = false;
+        export constexpr bool arch_64 = true;
+        export constexpr bool arch_32 = false;
     #elif defined(__ARCH_32__)
-        constexpr bool arch_64 = false;
-        constexpr bool arch_32 = true;
+        export constexpr bool arch_64 = false;
+        export constexpr bool arch_32 = true;
     #else
-        constexpr bool arch_64 = false;
-        constexpr bool arch_32 = false;
+        export constexpr bool arch_64 = false;
+        export constexpr bool arch_32 = false;
     #endif
 
     #if defined(__PFM_MSWIN__)
-        constexpr bool pfm_mswin = true;
-        constexpr bool pfm_linux = false;
-        constexpr bool pfm_unix = false;
+        export constexpr bool pfm_mswin = true;
+        export constexpr bool pfm_linux = false;
+        export constexpr bool pfm_unix = false;
     #elif defined(__PFM_LINUX__)
-        constexpr bool pfm_mswin = false;
-        constexpr bool pfm_linux = true;
-        constexpr bool pfm_unix = false;
+        export constexpr bool pfm_mswin = false;
+        export constexpr bool pfm_linux = true;
+        export constexpr bool pfm_unix = false;
     #elif defined(__PFM_UNIX__)
-        constexpr bool pfm_mswin = false;
-        constexpr bool pfm_linux = false;
-        constexpr bool pfm_unix = true;
+        export constexpr bool pfm_mswin = false;
+        export constexpr bool pfm_linux = false;
+        export constexpr bool pfm_unix = true;
     #else
-        constexpr bool pfm_mswin = false;
-        constexpr bool pfm_linux = false;
-        constexpr bool pfm_unix = false;
+        export constexpr bool pfm_mswin = false;
+        export constexpr bool pfm_linux = false;
+        export constexpr bool pfm_unix = false;
     #endif
 
     #if defined(__OS_WINDOWS__)
-        constexpr bool os_windows = true;
-        constexpr bool os_linux   = false;
-        constexpr bool os_bsd     = false;
+        export constexpr bool os_windows = true;
+        export constexpr bool os_linux   = false;
+        export constexpr bool os_bsd     = false;
     #elif defined(__OS_LINUX__)
-        constexpr bool os_windows = false;
-        constexpr bool os_linux   = true;
-        constexpr bool os_bsd     = false;
+        export constexpr bool os_windows = false;
+        export constexpr bool os_linux   = true;
+        export constexpr bool os_bsd     = false;
     #elif defined(__OS_BSD__)
-        constexpr bool os_windows = false;
-        constexpr bool os_linux   = false;
-        constexpr bool os_bsd     = true;
+        export constexpr bool os_windows = false;
+        export constexpr bool os_linux   = false;
+        export constexpr bool os_bsd     = true;
     #else
-        constexpr bool os_windows = false;
-        constexpr bool os_linux   = false;
-        constexpr bool os_bsd     = false;
+        export constexpr bool os_windows = false;
+        export constexpr bool os_linux   = false;
+        export constexpr bool os_bsd     = false;
     #endif
 
     // Preprocessor
@@ -204,8 +181,8 @@ namespace core::sys::hardware::os
     {
         switch (arg_arch)
         {
-            case Arch::Bit32:   return "32-bit";
-            case Arch::Bit64:   return "64-bit";
+            case Arch::Bit32:   return "x86";
+            case Arch::Bit64:   return "x64";
             default:            return "N/A";
         }
     }
