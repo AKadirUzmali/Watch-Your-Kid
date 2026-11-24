@@ -1,4 +1,4 @@
 + Geliştirici Yapıları:
 	+ Test (Test)
-	+ Kayıt (Logger)ww
+	+ Kayıt (Logger)
 	+ Hata Ayıklayıcı (Debugger)
