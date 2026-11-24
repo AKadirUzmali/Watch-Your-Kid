@@ -6,6 +6,8 @@
 	+ Donanım Bilgileri:
 		+ İşletim sistemi hakkındaki tüm bilgiler:
 			+ (get) arch
+			+ (get) platform
+			+ (get) os
 			+ (get) name
 			+ (get) ver
 	
