@@ -241,7 +241,7 @@ namespace core::sys::hardware::os
             using RtlGetVersionFn = LONG(WINAPI*)(PRTL_OSVERSIONINFOW);
             if (HMODULE ntdll = ::GetModuleHandleW(L"ntdll.dll"))
             {
-                auto tmp_rtl_get_version = reinterpret_cast<RtlGetVersionFn>(::GetProcAddress(ntdll, "RtlGetVersion"));
+                auto tmp_rtl_get_version = reinterpret_cast<RtlGetVersionFn>(reinterpret_cast<void*>(::GetProcAddress(ntdll, "RtlGetVersion")));
                 if (tmp_rtl_get_version)
                 {
                     RTL_OSVERSIONINFOW tmp_os_version_info {};
@@ -253,6 +253,8 @@ namespace core::sys::hardware::os
                     }
                 }
             }
+
+            return "N/A";
         #elif defined(__OS_LINUX__) || defined(__OS_BSD__)
             struct utsname tmp_uts_name {};
             if (::uname(&tmp_uts_name) == 0)
